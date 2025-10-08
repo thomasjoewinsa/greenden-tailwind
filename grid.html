@@ -1,0 +1,85 @@
+<style>
+ .container{
+    background-color: lightblue;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    border: solid black 2px;
+ }
+    .header{
+        display: grid;
+    background-color: aquamarine;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+
+ }
+ .one{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: greenyellow;
+    padding: 5px;
+    border: solid black 2px;
+ }
+ .footer{
+    background-color: aquamarine;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+ }
+ .middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+ .two{
+    background-color: orange;
+    padding: 5px;
+    border: solid black 2px;
+ }
+ .two_sub{
+   display: grid;
+   grid-template-columns: 2fr 2fr 2fr;
+   background-color: yellow;
+   text-align: center;
+   margin: 5px;
+   padding: 5px;
+   height: 200px;
+ }
+ .aside{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ }
+ .article{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+ }
+ .image{
+    border: solid black 2px;
+    margin: 5px;
+ }
+ 
+</style>
+<div class="container">
+    <div class="header">
+      <h1>Header</h1>
+    </div>
+    <div class="middle">
+        <div class="one">
+           <h1 class="aside">Aside</h1>
+        </div>
+    <div class="two">
+   <h1 class="article">Article</h1>
+   <div class="two_sub">
+    <p class="image">Image</p>
+    <p class="image">Image</p>
+    <p class="image">Image</p>
+   </div>
+    </div>
+    </div>
+    <div class="footer">
+<h1>Footer</h1>
+    </div>
+</div>
